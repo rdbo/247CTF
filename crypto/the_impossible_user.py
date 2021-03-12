@@ -35,4 +35,4 @@ print(f"ECB Block: {user_ecb}")
 # Retrieve flag #
 req = requests.get(f"{ctf_url}/get_flag?user={user_ecb}")
 flag = req.text
-print(f"Flag: {flag}")
+print(f"FLAG: {flag}")
