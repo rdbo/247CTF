@@ -1,4 +1,4 @@
-# Stack buffer overflow on function 'chall' at 0x80485d4. #
+# Stack buffer overflow on function 'chall' at 0x080485d4. #
 # Goal: overwrite return address (EBP+4) to get the function 'flag' at 0x08048576 to execute #
 # Buffer size: 68 #
 # Padding: 8 #
